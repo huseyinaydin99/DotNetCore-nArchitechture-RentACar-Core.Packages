@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Persistence", "Core.Pe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.Application", "Core.Application\Core.Application.csproj", "{9A788604-8E6D-4FFF-9EBB-16F6140303F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{11FCB062-4715-4414-B15A-85FD6044A1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core.CrossCuttingConcerns", "Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{11FCB062-4715-4414-B15A-85FD6044A1DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging_Table_Create", "Logging_Table_Create", "{C7A519C4-AD7B-4263-AB72-D60EF8C546A2}"
+	ProjectSection(SolutionItems) = preProject
+		Logging_Table_Create\LogTableCreateCommand.sql = Logging_Table_Create\LogTableCreateCommand.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
