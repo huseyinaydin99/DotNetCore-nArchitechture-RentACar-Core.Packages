@@ -14,19 +14,15 @@ public class UserOperationClaim : Entity<int>
     public virtual User User { get; set; }
     public virtual OperationClaim OperationClaim { get; set; }
 
-    public UserOperationClaim(int userId, int operationClaimId, User user, OperationClaim operationClaim)
+    public UserOperationClaim(int userId, int operationClaimId)
     {
         UserId = userId;
         OperationClaimId = operationClaimId;
-        User = user;
-        OperationClaim = operationClaim;
     }
 
-    public UserOperationClaim(int id, int userId, int operationClaimId, User user, OperationClaim operationClaim) : base(id)
+    public UserOperationClaim(int id, int userId, int operationClaimId) : base(id)
     {
         UserId = userId;
         OperationClaimId = operationClaimId;
-        User = user;
-        OperationClaim = operationClaim;
     }
 }
